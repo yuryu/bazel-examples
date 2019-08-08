@@ -1,5 +1,7 @@
-#include "lib/hello-time.h"
-#include "main/hello-greet.h"
+// Stage 3
+// #include "lib/hello-time.h"
+// Stage 2
+// #include "main/hello-greet.h"
 #include <iostream>
 #include <string>
 
@@ -8,7 +10,9 @@ int main(int argc, char** argv) {
   if (argc > 1) {
     who = argv[1];
   }
-  std::cout << get_greet(who) << std::endl;
-  print_localtime();
+  // Stage 2
+  // std::cout << get_greet(who) << std::endl;
+  // Stage 3
+  // print_localtime();
   return 0;
 }
