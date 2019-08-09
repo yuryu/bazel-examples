@@ -9,5 +9,5 @@ TEST(hello_greet_test, empty_string)
 
 TEST(hello_greet_test, with_name)
 {
-  EXPECT_EQ(get_greet("abc"), std::string("Hello "));
+  EXPECT_EQ(get_greet("abc"), std::string("Hello abc"));
 }
